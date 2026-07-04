@@ -3,6 +3,9 @@ import "./globals.css";
 export const metadata = {
   title: "Viral Analytics",
   description: "Analytics + IA para TikTok e LinkedIn",
+  other: {
+    "tiktok-developers-site-verification": "vBli2RrFIgDtNtEHV7kMukT0nQiDRvog",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
