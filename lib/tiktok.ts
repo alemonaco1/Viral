@@ -6,7 +6,7 @@ const TIKTOK_VIDEO_LIST_URL = "https://open.tiktokapis.com/v2/video/list/";
 
 // Escopos mínimos para o MVP. 'video.list' e métricas avançadas exigem
 // revisão de app pelo TikTok — sem isso, alguns campos vêm vazios.
-const SCOPES = ["user.info.basic", "video.list"].join(",");
+const SCOPES = ["user.info.basic"].join(",");
 
 export function getTikTokAuthUrl(state: string) {
   const params = new URLSearchParams({
