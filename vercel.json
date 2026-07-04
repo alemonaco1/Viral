@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/tiktok-developers-site-verification.txt",
+      "destination": "/api/tiktok-verification"
+    }
+  ]
+}
