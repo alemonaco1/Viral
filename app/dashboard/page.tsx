@@ -85,10 +85,10 @@ export default async function Dashboard() {
         </div>
 
         <nav className="flex flex-col gap-1 text-sm">
-          <div className="px-3 py-2 rounded-lg bg-teal-soft text-teal font-semibold">Painel</div>
-          <div className="px-3 py-2 rounded-lg text-ink-soft">Conteúdos</div>
-          <div className="px-3 py-2 rounded-lg text-ink-soft">Retenção</div>
-          <div className="px-3 py-2 rounded-lg text-ink-soft">Benchmark</div>
+          <a href="/dashboard" className="px-3 py-2 rounded-lg bg-teal-soft text-teal font-semibold">Painel</a>
+          <a href="/dashboard/conteudos" className="px-3 py-2 rounded-lg text-ink-soft hover:bg-teal-soft hover:text-teal transition-colors">Conteúdos</a>
+          <a href="/dashboard/retencao" className="px-3 py-2 rounded-lg text-ink-soft hover:bg-teal-soft hover:text-teal transition-colors">Retenção</a>
+          <a href="/dashboard/benchmark" className="px-3 py-2 rounded-lg text-ink-soft hover:bg-teal-soft hover:text-teal transition-colors">Benchmark</a>
         </nav>
 
         <div className="mt-auto flex flex-col gap-2.5">
